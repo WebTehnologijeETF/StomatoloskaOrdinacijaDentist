@@ -8,14 +8,13 @@ body {
     width: 960px;
    margin-right: auto;
     margin-left: auto; 
-    border: 1px solid #E3F0F9;
+      border:  solid #E3F0F9;
    
      
 }
 
 #zaglavlje {
     color: Blue;
-    
      background-color: #E8EAF7;
      height: 281px; 
      border-radius: 5px;
@@ -40,7 +39,7 @@ body {
 }
 
 #meni{
-    height: 59px;
+    height: 60px;
     border-bottom: 1px solid #E3F0F9;
     width: 935px;
     padding-left:25px;
@@ -61,10 +60,13 @@ body {
    border-bottom: none;
     padding: 20px;
     width: 100px;
+    height: 13px;
     text-align: center;
     display: block;
    background:  #D7DDE9;  
    border-radius: 5px;
+   position: relative;
+   
 }
 
 #meni ul li a:hover {
@@ -75,7 +77,7 @@ body {
 #meni ul li a#onlink{
     background-color: white;
     color: black;
-    border-bottom: 1px solid white;
+    
 }
 
 #meni ul li a#onlink:hover{
@@ -86,10 +88,10 @@ body {
       width: 640px;
        
 }
-#post{ margin: 0 auto;
+.post{ margin: 0 auto;
      
     background-color: white;
-    border: 1px solid #E3F0F9;
+    border: 4px solid #E3F0F9;
    width: 600px;
     border-top:  none;
      padding: 20px;
@@ -98,28 +100,65 @@ body {
 .slika{
     float: left;
     padding: 10px;
+    
 }
-
+.Naslov{
+    
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+     font-weight: bold;
+}
+.Naslov:hover {
+    color: #22ADE7; 
+}
+.Autor{
+    color: #d6d2d2;
+    font-size: 12px;
+    text-align: left;
+}
+.Datum{
+ color: #d6d2d2;
+    font-size: 12px;
+    text-align: right;
+}
+.Sadrzaj{
+    text-align: left;
+}
+.Tekst{
+    float: right;
+    width: 400px;
+}
+.Detaljnije{
+    text-decoration: none;
+     color: #22ADE7; 
+      float: right;
+}
+.Detaljnije:hover {
+      font-weight: bold;
+      text-decoration: underline;
+      
+}
 #glavni{
     background-color: white;
-     
+ 
 
 }
 
 #saStrane{
     width: 300px;
-    background-color: yellow; 
+    background-color: white; 
     float: right;
     padding: 10px;
-    
+    border-right: 4 solid #E3F0F9;
     
 }
 
 #footer{
    
    clear: both;
-   height: 50px;
-  
+   
+  padding:30px;
     background-color: #E3F0F9;
     text-align: center;
 }
