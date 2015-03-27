@@ -9,7 +9,7 @@ body {
    margin-right: auto;
     margin-left: auto; 
     border: 1px solid #E3F0F9;
-    // box-sizing: border-box;
+  
      
 }
 
@@ -22,7 +22,7 @@ body {
 }
 #firma{
     margin: 0 auto;
-   // position: fixed; top: 200px; left:220px;
+  
   
 }
 
@@ -33,7 +33,7 @@ body {
 
 #meni{
     height: 59px;
-    border-bottom: 1px solid b#E3F0F9;
+    border-bottom: 1px solid #E3F0F9;
     width: 935px;
     padding-left:25px;
     background-color: #E3F0F9;
@@ -49,7 +49,7 @@ body {
     float:left;
     margin-right:3px;
     color: black;
-    border: 1px solid b#E3F0F9;
+    border: 1px solid #E3F0F9;
    border-bottom: none;
     padding: 20px;
     width: 100px;
