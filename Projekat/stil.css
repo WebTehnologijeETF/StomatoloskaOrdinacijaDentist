@@ -9,21 +9,29 @@ body {
    margin-right: auto;
     margin-left: auto; 
     border: 1px solid #E3F0F9;
-  
+   
      
 }
 
 #zaglavlje {
     color: Blue;
-    font-size: 42px;
+    
      background-color: #E8EAF7;
      height: 281px; 
-      border-radius: 5px;
+     border-radius: 5px;
 }
-#firma{
-    margin: 0 auto;
-  
-  
+#naziv{
+   font-size: 46px;
+   position: relative; top:-220px; left: 125px;
+  font-family: 'Orbitron', sans-serif;
+  color: #22ADE7;
+  font-weight: bold;
+}
+#ordinacija{
+    font-size: 28px;
+   position: relative; top:-240px; left: 40px;
+  font-family: 'Orbitron', sans-serif;
+  color: #22ADE7;  
 }
 
 #zaglavlje.header{
