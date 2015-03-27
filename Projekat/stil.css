@@ -1,25 +1,29 @@
 body {
      background-color: #F5F9FC;
+ 
 }
 
 #okvir{
  background-color: white;
     width: 960px;
-    margin-right: auto;
+   margin-right: auto;
     margin-left: auto; 
-    height: 125px;
-     border: 1px solid #E3F0F9;
-     box-sizing: border-box;
+    border: 1px solid #E3F0F9;
+    // box-sizing: border-box;
+     
 }
 
 #zaglavlje {
     color: Blue;
     font-size: 42px;
-    background-color: #E8EAF7;
-    height: 281px; 
+     background-color: #E8EAF7;
+     height: 281px; 
+      border-radius: 5px;
 }
 #firma{
-     margin-top: -100px;
+    margin: 0 auto;
+   // position: fixed; top: 200px; left:220px;
+  
 }
 
 #zaglavlje.header{
@@ -52,6 +56,7 @@ body {
     text-align: center;
     display: block;
    background:  #D7DDE9;  
+   border-radius: 5px;
 }
 
 #meni ul li a:hover {
@@ -70,35 +75,36 @@ body {
     color: black;
 }
 #novosti{
-  
-         float: left;
-        background-color: black;
+      width: 640px;
        
 }
 #post{ margin: 0 auto;
      
     background-color: white;
     border: 1px solid #E3F0F9;
-    width:960px;
+   width: 600px;
     border-top:  none;
- 
+     padding: 20px;
     float: left;  
 }
 .slika{
     float: left;
+    padding: 10px;
 }
 
 #glavni{
-     background-color: #000;
+    background-color: white;
      
-     display: table;
-    
+
 }
 
 #saStrane{
-    width: 297px;
-    background-color: #f00; 
+    width: 300px;
+    background-color: yellow; 
     float: right;
+    padding: 10px;
+    
+    
 }
 
 #footer{
@@ -108,4 +114,9 @@ body {
   
     background-color: #E3F0F9;
     text-align: center;
+}
+#partneri {
+    background-color: white;
+    color: black;
+    width:960px;
 }
