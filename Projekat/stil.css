@@ -185,3 +185,23 @@ body {
      padding: 0px;
       font-size: 18px;
 }
+#listaPartnera{
+    text-decoration: none;
+    list-style-image: url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpt1/v/t34.0-12/11092554_10205258658878305_460961902_n.jpg?oh=ce4f5b80d32b42e414d924a5d488b412&oe=5518F878&__gda__=1427698899_5cb418a833a7e5e5c7d6b6ade4457f1a);  
+}
+#listaPartnera li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+   
+}
+#listaPartnera li a {
+    text-decoration: none;
+    color: #22ADE7;
+  font-size: 30px;
+}
+
+#listaPartnera li a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+}
