@@ -1,5 +1,6 @@
 body {
      background-color: #F5F9FC;
+    
  
 }
 
@@ -8,9 +9,10 @@ body {
     width: 960px;
    margin-right: auto;
     margin-left: auto; 
-      border:  solid #E3F0F9;
+    border:  solid #E3F0F9;
+    font-family: 'Arial';
+    padding-bottom: 2px;
    
-     
 }
 
 #zaglavlje {
@@ -40,7 +42,7 @@ body {
 
 #meni{
     height: 60px;
-    border-bottom: 1px solid #E3F0F9;
+    
     width: 935px;
     padding-left:25px;
     background-color: #E3F0F9;
@@ -56,7 +58,6 @@ body {
     float:left;
     margin-right:3px;
     color: black;
-    border: 1px solid #E3F0F9;
    border-bottom: none;
     padding: 20px;
     width: 100px;
@@ -86,7 +87,7 @@ body {
 }
 #novosti{
       width: 640px;
-       
+    
 }
 .post{ margin: 0 auto;
      
@@ -105,7 +106,7 @@ body {
 .Naslov{
     
     text-decoration: none;
-    font-size: 40px;
+    font-size: 36px;
     color: black;
      font-weight: bold;
 }
@@ -142,15 +143,26 @@ body {
 #glavni{
     background-color: white;
  
-
 }
 
 #saStrane{
     width: 300px;
     background-color: white; 
     float: right;
-    padding: 10px;
-    
+    padding: 10px;   
+}
+#Informacije{
+    color: #22ADE7; 
+    margin-left: 90px;
+}
+.slikaReklama{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Reklama{
+    padding: 15px;
+    color: #808080;
+    text-align: center;
 }
 
 #footer{
