@@ -246,7 +246,7 @@ body {
      padding: 30px;
     float: left;  
     width: 586px;
-     border-right: 4px solid #E3F0F9;}
+     border-right: 3px solid #E3F0F9;}
 #forma {
       margin:15px 15px 0px 15px;
       padding: 15px 15px 0px 15px;
@@ -303,4 +303,22 @@ input.Radio{
     width:20px;
     margin-top:19px;
     float: left;
+}
+
+#onama{
+    
+    background-color: white;
+     padding: 30px;
+    float: left;  
+    width: 586px;
+     border-right: 3px solid #E3F0F9;
+}
+.SlikaOrdinacija{
+    width: 600px;
+}
+.onamaTekst{
+    line-height:25px;
+    color: #808080;
+    font-size: 18px;
+    width: 556px;
 }
