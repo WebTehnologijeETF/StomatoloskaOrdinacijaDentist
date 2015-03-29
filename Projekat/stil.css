@@ -238,3 +238,69 @@ body {
     background-color:#E3F0F9; 
     color: black;
 }
+.kontakt{
+    width: 400px;
+  }
+#DivKontakti{
+   background-color: white;
+     padding: 30px;
+    float: left;  
+    width: 586px;
+     border-right: 4px solid #E3F0F9;}
+#forma {
+      margin:15px 15px 0px 15px;
+      padding: 15px 15px 0px 15px;
+      background-color: #D7DDE9;
+      width: 400px;
+      border-radius: 5px;
+      text-align: right;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+        margin-bottom: 40px;
+        
+}
+
+label{
+    float: left;
+    
+    width: 125px;
+    padding-right: 15px;
+    margin-top: 15px;
+    text-align: right;
+    clear: left;
+    
+}
+label.Spol{
+    float: left;
+   width: 130px; 
+   margin-bottom: 5px;
+}
+
+#DivSpol{
+   border: 2px solid white;
+    float:right;
+  text-align: center;
+  padding: 2px;
+  width: 255px;
+}
+
+textarea{
+    height: 150px;
+}
+input, textarea {
+    margin-top: 15px;
+    width: 250px;
+    
+}
+
+input.Button{
+    width:80px;
+    margin:15px 0px 15px 15px; 
+    
+}
+input.Radio{
+    width:20px;
+    margin-top:19px;
+    float: left;
+}
