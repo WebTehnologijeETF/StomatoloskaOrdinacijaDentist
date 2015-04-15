@@ -59,9 +59,10 @@ body {
     margin-right:3px;
     color: black;
    border-bottom: none;
-    padding: 20px;
+    padding: 15px 20px 15px 20px;
+ 
     width: 100px;
-    height: 13px;
+    height: 23px;
     text-align: center;
     display: block;
    background:  #D7DDE9;  
@@ -239,7 +240,7 @@ body {
     color: black;
 }
 .kontakt{
-    width: 400px;
+    width: 450px;
   }
 #DivKontakti{
    background-color: white;
@@ -251,7 +252,7 @@ body {
       margin:15px 15px 0px 15px;
       padding: 15px 15px 0px 15px;
       background-color: #D7DDE9;
-      width: 400px;
+      width: 550px;
       border-radius: 5px;
       text-align: right;
       margin-left: auto;
@@ -322,3 +323,23 @@ input.Radio{
     font-size: 18px;
     width: 556px;
 }
+
+
+
+
+.meni2 {width: 100px;
+
+     position: relative; top:0px; left: 572px;
+}
+
+.meni2 li a {
+    text-decoration: none;
+    color:black;
+}
+#padajuciMeni{
+    margin-top:30px;
+   display: none
+    
+}
+  
+

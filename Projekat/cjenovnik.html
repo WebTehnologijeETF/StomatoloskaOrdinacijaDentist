@@ -5,6 +5,7 @@
 <title>Stomatoloska ordinacija</title>
 <link rel="stylesheet" type="text/css" href="stil.css">
 <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+    <script src="meni.js"></script>
 </head>
 <body>       
 <div id="okvir"> <!--otvoren div okvir-->    
@@ -19,8 +20,16 @@
     <li><a href="onama.html">O nama</a></li>
     <li><a href="cjenovnik.html" id="onlink">Cjenovnik</a></li>
 <li><a href="kontakt.html" >Kontakt</a></li>
-<li><a href="partneri.html" >Partneri</a></li>
+
+  <li><a  href="#" onmouseover="prikaziMeni()"   onmouseout="sakrijMeni()" >Usluge</a></li> 
+    <li><a href="partneri.html" >Partneri</a></li>
 </ul>
+<ul id="padajuciMeni" class="meni2" onmouseout="sakrijMeni()" >
+      
+                <li onmouseover="prikaziMeni()"><a  href="protetika.html">Protetika</a></li>
+                <li onmouseover="prikaziMeni()"><a href="estomatologija.html">Estetika stomatologija</a></li>
+               
+            </ul>
 </div><!--zatvoren div meni-->
 <div id="glavni"><!--otvorene div glavniDio--> 
 <div id="saStrane">
