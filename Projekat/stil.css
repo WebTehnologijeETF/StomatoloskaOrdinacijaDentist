@@ -69,11 +69,6 @@ body {
     color: white;
 }
 
-#meni > div > a#onlink{
-    background-color: white;
-    color: black;
-    
-}
 
 .dropmenus{
     
@@ -143,7 +138,7 @@ div.dropmenus > a:hover {
 }
 
 #saStrane{
-    width: 210px;
+    width: 208px;
     background-color: white;
     float: right;
     padding: 10px;   
@@ -355,4 +350,8 @@ input.Radio{
     width:20px;
     margin-top:19px;
     float: left;
+}
+
+#sadrzajStranice{
+  
 }
