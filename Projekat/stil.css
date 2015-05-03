@@ -1,6 +1,6 @@
 body {
      background-color: #F5F9FC;
-    
+    font-family: 'Arial'
  
 }
 
@@ -9,17 +9,13 @@ body {
     width: 960px;
    margin-right: auto;
     margin-left: auto; 
-    border:4px solid #E3F0F9;
-    font-family: 'Arial';
-    padding-bottom: 2px;
-   
+    
 }
 
 #zaglavlje {
-    color: Blue;
-     background-color: #E8EAF7;
-     height: 281px; 
-     border-radius: 5px;
+    height: 281px;
+   
+    background-color: #E3F0F9;
 }
 #naziv{
    font-size: 46px;
@@ -27,84 +23,161 @@ body {
   font-family: 'Orbitron', sans-serif;
   color: #22ADE7;
   font-weight: bold;
+  width: 320px;
+
 }
 #ordinacija{
     font-size: 28px;
    position: relative; top:-240px; left: 40px;
   font-family: 'Orbitron', sans-serif;
-  color: #22ADE7;  
+  color: #22ADE7; 
+    width: 400px; 
 }
-
-#zaglavlje.header{
-    width: 980px;
-    margin: 0 auto;
-}
-
-#meni{
-    height: 60px;
-    
-    width: 935px;
-    padding-left:25px;
+#meni {
+ float: left;
+    background-color: red;
+    width: 945px;
+    padding-left: 15px;
     background-color: #E3F0F9;
+     height: 60px;
 }
-#meni ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; 
+#meni > div{   
+    position: relative;
+   
 }
 
-#meni ul li a {
-    text-decoration:none;
+#meni > div > a {
     float:left;
     margin-right:3px;
-    color: black;
-   border-bottom: none;
-    padding: 15px 20px 15px 20px;
- 
-    width: 100px;
-    height: 23px;
+    
+    font-size: 22px;
+    padding:10px;
+    width: 120px;
+    height: 35px;
     text-align: center;
     display: block;
    background:  #D7DDE9;  
    border-radius: 5px;
-   position: relative;
    
+    text-decoration: none;
+    color: black;
 }
 
-#meni ul li a:hover {
+#meni > div > a:hover {
+    
     background-color:#24ABE6;
     color: white;
 }
 
-#meni ul li a#onlink{
+#meni > div > a#onlink{
     background-color: white;
     color: black;
     
 }
 
-#meni ul li a#onlink:hover{
-    background-color:white;
-    color: black;
+.dropmenus{
+    
+     background-color: #E3F0F9;
+    border-radius: 5px;
+    position: absolute;
+    top: 55px;
+     left: 150px;
+    width: 220px;
+ display: none;
+   padding-top: 5px;
+  
+    
 }
-#novosti{
-      width: 640px;
+#dropmenu1{
+     position: absolute;
+    
+    
+}
+#dropmenu2{
+     position: absolute;
+    left: 355px;
+    padding-left: 10px;
+    
+}
+
+#dropmenu3{
+    
+ position: absolute;
+ top: 113px;
+    left: 355px;
+    padding-left: 10px;
+   
+    
+}
+.dropmenus > a { 
+    text-decoration: none;
+    color: black; 
+ float:left;
+    margin-left:5px;
+margin-bottom: 4px;
+    
+    font-size: 18px;
+    padding:10px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    display: block;
+   background:  #D7DDE9;  
+   border-radius: 5px;
+
+
+}
+div.dropmenus > a:hover {
+    
+    background-color:#24ABE6;
+    color: white;
+}
+
+#footer{
+   
+   clear: both;
+   
+  padding:30px;
+    background-color: #E3F0F9;
+    text-align: center;
+}
+
+#saStrane{
+    width: 210px;
+    background-color: white;
+    float: right;
+    padding: 10px;   
+
    
 }
+#Informacije{
+    color: #22ADE7; 
+    margin-left: 50px;
+}
+.slikaReklama{
+    margin-left: 10px;
+    margin-top: 20px;
+   
+}
+.Reklama{
+     margin-left: 15px;
+    color: #808080;
+    text-align: left;
+}
+
 .post{ margin: 0 auto;
-     
-    background-color: white;
-   border-bottom:4px solid #E3F0F9;
-   border-right:3px solid #E3F0F9;
-   width: 606px;
-    border-top:  none;
+     background-color: white;
+   width: 681px;
      padding: 20px;
     float: left;  
+     border: 4px solid #E3F0F9;
 }
 .slika{
     float: left;
     padding: 10px;
     
 }
+
 .Naslov{
     
     text-decoration: none;
@@ -142,46 +215,53 @@ body {
       text-decoration: underline;
       
 }
-#glavni{
+
+
+#cjenovnik{
     background-color: white;
+       float: left;  
+     padding: 20px;
  
-}
-
-#saStrane{
-    width: 291px;
-    background-color: white; 
-    float: right;
-    padding: 10px;   
-    border-left: 3px solid #E3F0F9;
-}
-#Informacije{
-    color: #22ADE7; 
-    margin-left: 90px;
-}
-.slikaReklama{
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.Reklama, .PartneriText{
-    padding: 15px;
-    color: #808080;
-    text-align: center;
-}
-
-#footer{
-   
-   clear: both;
-   
-  padding:30px;
-    background-color: #E3F0F9;
-    text-align: center;
-}
-#partneri {
-    background-color: white;
-     padding: 30px;
-    float: left;  
-    width: 586px;
      border-right: 4px solid #E3F0F9;
+     width: 681px;
+    
+    
+}
+.red{
+    background-color: #d6d2d2;
+    
+    }
+.red2 {
+    background-color: #E3F0F9;
+    color: #808080;
+   
+}
+.celija {
+    width: 400px;
+    height: 25px;
+    padding-left: 5px;
+}
+.celijaZaglavlje{
+   text-align: center;
+    height: 25px; 
+    background-color:#E3F0F9; 
+    color: black;
+}
+
+
+#onama{
+    float: left;
+    background-color: white;
+      padding: 20px;
+     border-right: 4px solid #E3F0F9;
+     width: 681px;
+}
+
+#partneri {float: left;  
+    background-color: white;
+      padding: 20px;
+     border-right: 4px solid #E3F0F9;
+     width: 681px;
     
 }
 .PartneriText{
@@ -210,35 +290,6 @@ body {
       text-decoration: underline;
 }
 
-#cjenovnik{
-    background-color: white;
-     padding: 30px;
-    float: left;  
-     border-right: 4px solid #E3F0F9;
-     width: 586px;
-    
-    
-}
-.red{
-    background-color: #d6d2d2;
-    
-    }
-.red2 {
-    background-color: #E3F0F9;
-    color: #808080;
-   
-}
-.celija {
-    width: 400px;
-    height: 25px;
-    padding-left: 5px;
-}
-.celijaZaglavlje{
-   text-align: center;
-    height: 25px; 
-    background-color:#E3F0F9; 
-    color: black;
-}
 .kontakt{
     width: 450px;
   }
@@ -246,7 +297,7 @@ body {
    background-color: white;
      padding: 30px;
     float: left;  
-    width: 586px;
+    width: 661px;
      border-right: 3px solid #E3F0F9;}
 #forma {
       margin:15px 15px 0px 15px;
@@ -305,41 +356,3 @@ input.Radio{
     margin-top:19px;
     float: left;
 }
-
-#onama{
-    
-    background-color: white;
-     padding: 30px;
-    float: left;  
-    width: 586px;
-     border-right: 3px solid #E3F0F9;
-}
-.SlikaOrdinacija{
-    width: 600px;
-}
-.onamaTekst{
-    line-height:25px;
-    color: #808080;
-    font-size: 18px;
-    width: 556px;
-}
-
-
-
-
-.meni2 {width: 100px;
-
-     position: relative; top:0px; left: 572px;
-}
-
-.meni2 li a {
-    text-decoration: none;
-    color:black;
-}
-#padajuciMeni{
-    margin-top:30px;
-   display: none
-    
-}
-  
-
