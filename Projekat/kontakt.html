@@ -3,35 +3,50 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Stomatoloska ordinacija</title>
+    <link rel="stylesheet" type="text/css" href="stil.css">
  </head>
     <body> 
          
- <div id="DivKontakti">
-
-    <h1 >Kontaktirajte nas: </h1>
-   <div id="forma">
-    <form class="kontakt">
-    <div>  <label for="Ime">Ime:</label>
-   <input type="text" name="Ime" id="Ime" /> </div>
-       <div> <label for="Prezime">Prezime:</label>
-   <input type="text" name="Prezime" id="Prezime" /></div>
-        <div> <label for="E-mail">E-mail:</label>
-   <input type="text" name="E-mail" id="E-mail" /></div>
-    <br><label> Spol:</label><br><br>    
-      <div id="DivSpol"><label class="Spol">Muško</label>    <input class="Radio" type="radio" name="Spol" value="Muško"/> <br> 
-       <label class="Spol">  Žensko</label>    <input class="Radio"  type="radio" name="Spol" value="Žensko"/>  </div>
-   <div>
-    <label for="Poruka">Poruka:</label>
-        <textarea name="Poruka" id="Poruka" ></textarea> </div>
-         <input class="Button" type="submit" value="Pošalji">  
-         <input class="Button" type="reset" value="Poništi">  
-         </form></div>
-         <p class="onamaTekst">
-         Želja nam je da naše aktivnosti potpuno prilagodimo vašim potrebama i zahtjevima. 
+ <div id="DivKontakti"> <p class="onamaTekst">
+    
+  Želja nam je da naše aktivnosti potpuno prilagodimo vašim potrebama i zahtjevima. 
         <br> Zato vas molimo da, ukoliko imate prijedloge za poboljšanje <br>naših usluga 
-          popunite ponuđeni formular i pošaljete.
-       
-              <br> <br>
+          popunite ponuđeni formular i pošaljete.</p> <br>
+    <h1 >Kontaktirajte nas: </h1>
+      <br>
+     <form id="forma" action="kontakt.php" method="get" >
+     <div class="proba">  <label for="Ime">Ime:</label>
+   <input type="text" name="Ime" id="Ime"  placeholder="Ime"  />   </div>   <div id="eror_ime">  </div> 
+       <div  class="proba"> <label for="Prezime">Prezime:</label>
+   <input type="text" name="Prezime" id="Prezime"  placeholder="Prezime"  /></div>  <div id="eror_prezime">  </div> 
+         <div class="proba"> <label for="Grad">Grad:</label>
+   <input type="text" name="Grad" id="Grad"  placeholder="Sarajevo"  /></div><div id="eror_prezime">  </div> 
+          <div class="proba"> <label for="PostanskiBroj">Poštanski broj:</label>
+   <input type="text" name="PostanskiBroj" id="PostanskiBroj"  placeholder="71000"  /></div>  <div id="eror_prezime">  </div> 
+          <div  class="proba">  <label> Spol:</label>  <div id="DivSpol"><label class="Spol">Muško</label>    <input class="Radio" type="radio" name="Spol" value="Musko"/> <br> 
+       <label class="Spol">  Žensko</label>    <input class="Radio"  type="radio" name="Spol" value="Zensko"/>  </div>     </div>  
+        <div id="eror_email">  </div> 
+        
+          <div  class="proba"> <label for="Email"  >E-mail:</label> 
+   <input type="text" name="Email" id="Email" placeholder="mail@primjer.com"  /></div>   <div id="eror_email">  </div> 
+
+        <div  class="proba"> <label for="Email2">Potvrdi E-mail:</label> 
+   <input type="text" name="Email2" id="Email2" placeholder="mail@primjer.com"  /></div>   <div id="eror_email"> </div> 
+
+  
+        
+      
+        
+           
+      <div  class="proba">
+         <label for="Poruka">Poruka:</label> <textarea name="Poruka" id="Poruka"  placeholder="Poruka...."  ></textarea> </div>
+        <div  class="proba">
+         <input class="Button" type="submit" value="Posalji">  
+         <input class="Button" type="reset" value="Ponisti">   </div>
+         </form>
+         <p class="onamaTekst">
+        
+       <br> <br>
 Hvala vam na vremenu koje ste odvojili za nas!</p>
 
          </div>

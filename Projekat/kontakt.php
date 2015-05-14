@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -68,11 +68,11 @@ Sub 09 – 14h <br>  </p>
       <p class="Reklama">SVIM POTENCIJALNIM PACIJENTIMA NUDIMO BESPLATAN PREGLED I KONSULTACIJE UZ BEZBOLNU TERAPIJU PRI ZAHVATU.
 BUDITE SLOBODNI DA NAS KONTAKTIRATE <br> <br> MOGUĆNOST PLAĆANJA NA 12 RATA!</p>
                  </div>
-
+    <?php include 'validacijaKontakt.php'?>
     <div id="sadrzajStranice">
-                <script>
-                    ucitajSadrzajStranice("pocetna.html");
-                </script>
+               <?php 
+				include $prikaziKontakt;
+				?>
             </div>
 
 

@@ -288,17 +288,20 @@ div.dropmenus > a:hover {
 .kontakt{
     width: 450px;
   }
-#DivKontakti{
-   background-color: white;
-     padding: 30px;
-    float: left;  
+#DivKontakti,#Neispravno{
+    background-color: white;
+    padding: 30px;
+  float: left;
     width: 661px;
-     border-right: 3px solid #E3F0F9;}
+    border-right: 3px solid #E3F0F9;
+}
+
 #forma {
       margin:15px 15px 0px 15px;
       padding: 15px 15px 0px 15px;
       background-color: #D7DDE9;
-      width: 550px;
+      width: 600px;
+     height: 600px;
       border-radius: 5px;
       text-align: right;
       margin-left: auto;
@@ -306,6 +309,11 @@ div.dropmenus > a:hover {
       margin-top: 40px;
         margin-bottom: 40px;
         
+}
+#forma2{margin:15px 15px 15px 15px;
+      padding: 15px 15px 15px 15px;
+       width: 600px;
+        background-color: #D7DDE9;
 }
 
 label{
@@ -322,36 +330,94 @@ label.Spol{
     float: left;
    width: 130px; 
    margin-bottom: 5px;
+  
 }
 
 #DivSpol{
+  
    border: 2px solid white;
     float:right;
   text-align: center;
   padding: 2px;
-  width: 255px;
+  width: 245px;
+position: relative;
+
+top: 10px;
 }
 
 textarea{
     height: 150px;
+     position: relative;
+
 }
+
 input, textarea {
     margin-top: 15px;
     width: 250px;
+
+    
     
 }
 
 input.Button{
     width:80px;
     margin:15px 0px 15px 15px; 
+    position: relative;
+   left: -200px;
+   top: 170px;
     
 }
 input.Radio{
     width:20px;
     margin-top:19px;
     float: left;
+    
+     position: relative;
+     left: -100px; 
+     top: -7px;
+   
+}
+#onama{
+    
+    background-color: white;
+     padding: 30px;
+    float: left;  
+    width: 586px;
+     border-right: 3px solid #E3F0F9;
+}
+.SlikaOrdinacija{
+    width: 600px;
+}
+.onamaTekst{
+    line-height:25px;
+    color: #808080;
+    font-size: 18px;
+    width: 556px;
+   
 }
 
-#sadrzajStranice{
-  
+
+#eror_ime>div,#eror_poruka>div,#eror_prezime>div,#eror_email>div,#eror_email2>div{float: left;}
+#eror_prezime,#eror_poruka,#eror_ime,#eror_email,#eror_email2{
+     text-align: left;
+    color: red;
+    width: 200px;
+
+    height: 20px;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    top: 15px;
+   }
+
+.proba{
+     float: left;}
+.PodaciForma{
+    color: #808080;
+   
+    
+}
+input.Siguran{
+   position: relative; 
+   left: 150px;
 }
