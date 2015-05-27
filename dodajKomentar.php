@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -31,7 +31,7 @@
      <a href="#"  >O zubu i korijenu zuba</a>
         <a href="#"  >Zubni implantant prije ugradnje</a>
            <a href="#"  >Ugradnja zubnog implatanta</a>
-            <a href="#"   >Nakon ugradnje zubnog implatanta</a>
+            <a href="#"  >Nakon ugradnje zubnog implatanta</a>
           </div >
               <div id="dropmenu3" class="dropmenus" onmouseover="prikazi3Meni();prikaziMeni()"  onmouseout="sakrij3Meni();sakrijMeni() "   > 
      <a href="#"  >O zubu i zubnoj kruni</a>
@@ -68,15 +68,16 @@ Sub 09 – 14h <br>  </p>
       <p class="Reklama">SVIM POTENCIJALNIM PACIJENTIMA NUDIMO BESPLATAN PREGLED I KONSULTACIJE UZ BEZBOLNU TERAPIJU PRI ZAHVATU.
 BUDITE SLOBODNI DA NAS KONTAKTIRATE <br> <br> MOGUĆNOST PLAĆANJA NA 12 RATA!</p>
                  </div>
-
-    
+    <?php include 'validacijaKomentari.php'?>
     <div id="sadrzajStranice">
-        
-        <?php 
-				include 'novosti.php'
-				?>        
-            
-            </div>
+     
+          <?php 
+				include $prikaziKomentar;
+				?>
+           
+         </div>
+
+   
 
 
     <div id="footer">

@@ -17,7 +17,7 @@
 </div><!--zatvoren div zaglavlje--> 
  <div id="meni"><!--otvoren div meni--> 
          <div id="cont1"> 
-    <a href="#" onclick="return ucitajSadrzajStranice('pocetna.html')"  >Pocetna</a></div >
+    <a href="index.php"   >Pocetna</a></div >
 <div id="cont2"> 
     <a href="#" onmouseover="prikaziMeni()"   onmouseout="sakrijMeni()">Usluge </a>
     <div id="dropmenu1" class="dropmenus" onmouseover="prikaziMeni()" onmouseout="sakrijMeni()"> 
