@@ -11,6 +11,7 @@
     echo    "<div id=DivKontakti>",
 
    "<p class=Komentar2> Uspješno ste komentarisali novost  !","</p>",
+   
    "<h1> Forma za komentar:","<br>","<br>","</h1>", "<p class=onamaTekst> Polja oznacena sa * nisu obavezna",
         "<form id=formaKomentar action=dodajKomentar.php method=get >","
          <input type='hidden' name='idNovosti' value=".$id.">","
@@ -24,9 +25,8 @@
          <input class=Button type=submit value=Komentarisi> "," 
          <input class=Button type=reset value=Ponisti>"   ,"</div>","
      </form>",
- "<h1>Komentari:</p>","</h1>";
+ "<h1>Komentari:</h1>","</div>";
      
-
 $novostKomentari = $veza->query("select id, novost, tekst, ime,UNIX_TIMESTAMP(vrijeme) vrijeme2,email from komentar where novost=".$id." order by vrijeme asc;");
 		
            
@@ -35,6 +35,7 @@ $novostKomentari = $veza->query("select id, novost, tekst, ime,UNIX_TIMESTAMP(vr
 
                     echo "<div class=post>","<h1 class=Autor>".$vijest['ime']." ".$vijest['email']. "</h1>","<h1 class=Datum>".date("d.m.Y. (h:i)", $vijest['vrijeme2'])."</h1>"," <p class=Sadrzaj>".$vijest['tekst']."</p>","</div>";
 				 }
+
                 
 
 
