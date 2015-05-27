@@ -22,7 +22,7 @@ foreach ($rezultat as $vijest) {
 		$brojKomentara = $brKomentara->fetchColumn();
 		
 		if($brojKomentara == 0) {
-        echo "<div class=post>","<img class=slika src=".$vijest['slika']." alt=slika>","<div class=Tekst>","<a class=Naslov href=detaljnijeNovosti.php?id=".$vijest['id']." title=Detaljnije>" .$vijest['naslov']."</a>","<h1 class=Autor>".$vijest['autor']."</h1>","<h1 class=Datum>".date("d.m.Y. (h:i)", $vijest['vrijeme2'])."</h1>"," <p class=Sadrzaj>".$vijest['tekst']."</p>","<p class=Komentar2>","Nema komentara","</p>","</div>","</div>";
+        echo "<div class=post>","<img class=slika src=".$vijest['slika']." alt=slika>","<div class=Tekst>","<a class=Naslov href=detaljnijeNovosti.php?id=".$vijest['id']." title=Detaljnije>" .$vijest['naslov']."</a>","<h1 class=Autor>".$vijest['autor']."</h1>","<h1 class=Datum>".date("d.m.Y. (h:i)", $vijest['vrijeme2'])."</h1>"," <p class=Sadrzaj>".$vijest['tekst']."</p>","<a class=Komentar1 href=Komentari.php?id=".$vijest['id']." title=Komentari>Nema komentara ","</div>","</div>";
         }
         else{
             if($brojKomentara == 1)
