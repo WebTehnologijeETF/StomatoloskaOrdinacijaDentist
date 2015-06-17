@@ -252,12 +252,17 @@ div.dropmenus > a:hover {
 }
 
 
-#onama{
+#onama,#istakni{
     float: left;
     background-color: white;
       padding: 20px;
      border-right: 4px solid #E3F0F9;
      width: 681px;
+}
+#istakni
+{
+     color: #22ADE7; 
+    
 }
 
 #partneri {float: left;  

@@ -23,21 +23,21 @@
     <div id="dropmenu1" class="dropmenus" onmouseover="prikaziMeni()" onmouseout="sakrijMeni()"> 
 <a href="#"  onmouseover="prikazi2Meni()" onmouseout="sakrij2Meni()"  >Implantologija >></a>
      <a href="#" onmouseover="prikazi3Meni()" onmouseout="sakrij3Meni()"  >Protetika >></a>
-        <a href="#"  >Estetska stomatologija</a>
-        <a href="#"  >Izbjeljivanje zuba</a>
-           <a href="#"  >Oralna hirurgija</a>
+        <a href="#" onclick="return ucitajSadrzajStranice('estetskastomatologija.html')" >Estetska stomatologija</a>
+        <a href="#" onclick="return ucitajSadrzajStranice('izbjeljivanjezuba.html')" >Izbjeljivanje zuba</a>
+           <a href="#" onclick="return ucitajSadrzajStranice('hirurgija.html')" >Oralna hirurgija</a>
 </div >
       <div id="dropmenu2" class="dropmenus" onmouseover="prikazi2Meni();prikaziMeni()"  onmouseout="sakrij2Meni();sakrijMeni() "  > 
-     <a href="#"  >O zubu i korijenu zuba</a>
-        <a href="#"  >Zubni implantant prije ugradnje</a>
-           <a href="#"  >Ugradnja zubnog implatanta</a>
-            <a href="#"  >Nakon ugradnje zubnog implatanta</a>
+     <a href="#"  onclick="return ucitajSadrzajStranice('zubikorijenzuba.html')"  >O zubu i korijenu zuba</a>
+        <a href="#" onclick="return ucitajSadrzajStranice('prijeugradnje.html')" >Zubni implantant prije ugradnje</a>
+           <a href="#" onclick="return ucitajSadrzajStranice('ugradnjaimplantata.html')" >Ugradnja zubnog implatanta</a>
+            <a href="#" onclick="return ucitajSadrzajStranice('nakonugradnje.html')"  >Nakon ugradnje zubnog implatanta</a>
           </div >
               <div id="dropmenu3" class="dropmenus" onmouseover="prikazi3Meni();prikaziMeni()"  onmouseout="sakrij3Meni();sakrijMeni() "   > 
-     <a href="#"  >O zubu i zubnoj kruni</a>
-        <a href="#"  >Fiksna zubna protetika</a>
-                  <a href="#"  >Polufiksna zubna protetika</a>
-                     <a href="#"  >Mobilna zubna protetika</a>
+     <a href="#" onclick="return ucitajSadrzajStranice('zubnakruna.html')"  >O zubu i zubnoj kruni</a>
+        <a href="#" onclick="return ucitajSadrzajStranice('fiksnaprotetika.html')" >Fiksna zubna protetika</a>
+                  <a href="#" onclick="return ucitajSadrzajStranice('polufiksnaprotetika.html')" >Polufiksna zubna protetika</a>
+                     <a href="#" onclick="return ucitajSadrzajStranice('mobilnaprotetika.html')" >Mobilna zubna protetika</a>
           </div ></div >
      <div id="cont3"> 
     <a href="#" onclick="return ucitajSadrzajStranice('cjenovnik.html')" >Cijene </a>
